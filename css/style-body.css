@@ -25,3 +25,22 @@ html{
 body{
   background-color: var(--color-fondo);
 }
+/* Estilos para el botón de traducción */
+#translateBtn, #translateBtnMobile {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+#translateBtn:hover, #translateBtnMobile:hover {
+  background-color: var(--color-principal);
+  color: white;
+}
+
+/* Para versión móvil */
+@media (max-width: 768px) {
+  #translateBtnMobile {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
