@@ -75,7 +75,7 @@
   background-image: url("../img/proyectos/proyecto_1.jpg");
   background-position: center;
   background-size: cover;
-  border-radius: 15px;
+  border-radius: 12px;
   filter: brightness(50%);
   transition-property: transform;
   transition-duration: 1s;
@@ -89,13 +89,27 @@
   background-image: url("../img/proyectos/proyecto_2.jpg");
   background-position: center;
   background-size: cover;
-  border-radius: 15px;
+  border-radius: 12px;
+  filter: brightness(50%);
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.proyAduana{
+  background-image: url("../img/proyectos/proyecto_3.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
   filter: brightness(50%);
   transition-property: transform;
   transition-duration: 1s;
 }
 
 .proyAutos:hover{
+  transform: scale(1.05);
+}
+
+.proyAduana:hover{
   transform: scale(1.05);
 }
 
